@@ -24,7 +24,16 @@ import { Tab, Tabs } from '@liinkiing/react-tabs'
 class Example extends React.Component {
   render () {
     return (
-      <MyComponent />
+      <Tabs>
+        <Tab>
+          <Tab.Title>First tab</Tab.Title>
+          <Tab.Content>First Content</Tab.Content>
+        </Tab>
+        <Tab>
+          <Tab.Title>Second tab</Tab.Title>
+          <Tab.Content>Second content</Tab.Content>
+        </Tab>
+      </Tabs>
     )
   }
 }

@@ -13,9 +13,19 @@ Or
 ```bash
 yarn add @liinkiing/react-tabs
 ```
+Internally, it uses [framer/motion](https://github.com/framer/motion) packages for the animations between the tab content. It is referenced as a peerDependency, and you should add `framer-motion` to your packages if you are not already using it. 
 
+```bash
+npm install --save framer-motion
+```
+Or
+```bash
+yarn add framer-motion
+```
 ## Usage
 
+You can use the `animate`, `initial` and `exit` props in `<Tabs>` component to customize the behaviour of the transitions.
+ 
 ```tsx
 import * as React from 'react'
 
@@ -24,7 +34,12 @@ import { Tab, Tabs } from '@liinkiing/react-tabs'
 class Example extends React.Component {
   render () {
     return (
-      <Tabs>
+      <Tabs
+          {/* These values are the ones by default */}
+          initial={{opacity: 0, x: 40}}
+          animate={{opacity: 1, x: 0}}
+          exit={{opacity: 0, x: 40}}
+        >
         <Tab>
           <Tab.Title>First tab</Tab.Title>
           <Tab.Content>First Content</Tab.Content>

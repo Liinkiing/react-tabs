@@ -66,9 +66,10 @@ export default class App extends Component {
               <Tab.Content>Second content</Tab.Content>
             </Tab>
             <Tab>
-              <Tab.Title>NESTED</Tab.Title>
+              <Tab.Title>NESTED WITH STRETCHED TABS TITLE</Tab.Title>
               <Tab.Content>
                 <Tabs
+                  stretchTabsTitle
                   initial={{opacity: 0, x: 500}}
                   exit={{opacity: 0, x: 500}}
                 >

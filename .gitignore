@@ -4,6 +4,11 @@
 # dependencies
 node_modules
 
+/.idea
+
+yarn.lock
+example/yarn.lock
+
 # builds
 build
 dist

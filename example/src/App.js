@@ -1,12 +1,21 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'react-tabs'
+import { Tab, Tabs } from 'react-tabs'
 
 export default class App extends Component {
   render () {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <Tabs>
+          <Tab>
+            <Tab.Title>First tab</Tab.Title>
+            <Tab.Content>First Content</Tab.Content>
+          </Tab>
+          <Tab>
+            <Tab.Title>Second tab</Tab.Title>
+            <Tab.Content>Second content</Tab.Content>
+          </Tab>
+        </Tabs>
       </div>
     )
   }

@@ -23,6 +23,7 @@
   },
   "dependencies": {},
   "peerDependencies": {
+    "framer-motion": "^1.6.3",
     "prop-types": "^15.5.4",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
@@ -37,6 +38,7 @@
     "babel-core": "^6.26.3",
     "babel-runtime": "^6.26.0",
     "cross-env": "^5.1.4",
+    "framer-motion": "^1.6.3",
     "gh-pages": "^1.2.0",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",

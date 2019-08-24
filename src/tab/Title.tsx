@@ -7,10 +7,14 @@ interface Props {
 
 const TitleInner = styled.div`
   padding: 10px;
-  background: wheat;
+  border-radius: inherit;
   cursor: pointer;
   height: 100%;
   transition: all 0.15s;
+  background: whitesmoke;
+  &:hover {
+    opacity: 0.8;
+  }
 `
 
 const Title: React.FC<Props> = ({ children, ...rest }) => {

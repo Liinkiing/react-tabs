@@ -22,6 +22,9 @@ Or
 ```bash
 yarn add framer-motion
 ```
+
+**Typescript** support is by default enabled because the library is entirely written in Typescript
+
 ## Usage
 
 You can use the `animate`, `initial` and `exit` props in `<Tabs>` component to customize the behaviour of the transitions.

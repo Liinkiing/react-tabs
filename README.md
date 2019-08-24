@@ -1,6 +1,7 @@
 # @liinkiing/react-tabs
 
 > A composable React tabs library
+> [https://liinkiing.github.io/react-tabs/](https://liinkiing.github.io/react-tabs/)
 
 [![NPM](https://img.shields.io/npm/v/@liinkiing/react-tabs.svg)](https://www.npmjs.com/package/@liinkiing/react-tabs) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -28,6 +29,8 @@ yarn add framer-motion
 ## Usage
 
 You can use the `animate`, `initial` and `exit` props in `<Tabs>` component to customize the behaviour of the transitions.
+ 
+`stretchTabsTitle` and `verticalLayout` can also be used in props of `<Tabs>` to personalize the appearance (see example)
  
 ```tsx
 import * as React from 'react'
@@ -82,6 +85,7 @@ class Example extends React.Component {
           <Tab.Content>
             I have a totally different tabs component with different animations!
             <Tabs
+              verticalLayout
               initial={{opacity: 0, x: -400, y: -20}}
               animate={{opacity: 1, x: 0, y: 0}}
               exit={{opacity: 0, x: -400, y: -20}}
@@ -102,6 +106,9 @@ class Example extends React.Component {
   }
 }
 ```
+
+## Example
+[https://liinkiing.github.io/react-tabs/](https://liinkiing.github.io/react-tabs/)
 
 ## Notes
 This package was made just for the sake of learning and because I wanted a different API to compose my tabs. In a lot of tabs packages, you use a key to identify which tab correspond to which tab content but I wanted to have a hierarchy like this one:

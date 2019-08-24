@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import { Tab, Tabs } from 'react-tabs'
+import { Tab, Tabs } from '@liinkiing/react-tabs'
 
 export default class App extends Component {
   render () {

@@ -1,5 +1,5 @@
 {
-  "name": "react-tabs-example",
+  "name": "@liinkiing/react-tabs-example",
   "homepage": "https://liinkiing.github.io/react-tabs",
   "version": "0.0.0",
   "license": "MIT",
@@ -9,7 +9,7 @@
     "react": "link:../nodes_modules/react",
     "react-dom": "link:../nodes_modules/react-dom",
     "react-scripts": "^3.0.0",
-    "react-tabs": "link:.."
+    "@liinkiing/react-tabs": "link:.."
   },
   "scripts": {
     "start": "react-scripts start",

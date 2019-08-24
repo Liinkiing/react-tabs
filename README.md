@@ -1,13 +1,17 @@
-# react-tabs
+# @liinkiing/react-tabs
 
 > A composable React tabs library
 
-[![NPM](https://img.shields.io/npm/v/react-tabs.svg)](https://www.npmjs.com/package/react-tabs) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@liinkiing/react-tabs.svg)](https://www.npmjs.com/package/@liinkiing/react-tabs) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-tabs
+npm install --save @liinkiing/react-tabs
+```
+Or
+```bash
+yarn add @liinkiing/react-tabs
 ```
 
 ## Usage
@@ -15,7 +19,7 @@ npm install --save react-tabs
 ```tsx
 import * as React from 'react'
 
-import MyComponent from 'react-tabs'
+import { Tab, Tabs } from '@liinkiing/react-tabs'
 
 class Example extends React.Component {
   render () {

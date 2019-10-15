@@ -3,7 +3,7 @@
 > A composable React tabs library
 > [https://liinkiing.github.io/react-tabs/](https://liinkiing.github.io/react-tabs/)
 
-[![NPM](https://img.shields.io/npm/v/@liinkiing/react-tabs.svg)](https://www.npmjs.com/package/@liinkiing/react-tabs) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
